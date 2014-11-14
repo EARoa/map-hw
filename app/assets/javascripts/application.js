@@ -49,7 +49,13 @@ var popup = L.popup()
     .setLatLng([19.2944337,-99.6397071], 16)
     .setContent("<b>Hello world!</b><br>Efrain was born here, in <b>Toluca, Mexico!</b>")
     .openOn(map);
+
+
+    var circle = L.circle([29.746224,-95.350293], 17, {
+        color: 'blue',
+        fillColor: '#2980b9',
+        fillOpacity: 0.5
+    }).addTo(map);
+    
+
 });
-
-
-var popup = L.popup();
